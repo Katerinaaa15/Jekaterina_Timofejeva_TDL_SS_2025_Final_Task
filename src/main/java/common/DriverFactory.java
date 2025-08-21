@@ -18,7 +18,7 @@ public class DriverFactory {
 
             switch (browser.toLowerCase()) {
                 case "chrome":
-//                  System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver"); // chromedriver for mac 64
+//                  System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver_mac_64"); // chromedriver for mac 64
                     System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver_windows_64.exe"); // chromedriver for windows 64
                     ChromeOptions options = new ChromeOptions();
                     options.addArguments("--incognito --disable-features=PasswordCheck");
